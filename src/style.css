@@ -8,108 +8,47 @@
 body {
   margin: 0;
   height: 100%;
+  width: 100%;
   font: Montserrat;
+
   
 }
-
-.container {
-  position: absolute;
-  width: 15%;
-  height: 100%;
-  top: 0px;
-  background: #32197A;
-  margin: auto;
-  overflow: hidden;;
-}
-
-
-
-.img-icon{
-  width: 3em;
-  margin-right: 25%;
-  margin-left: 25%;
-  
-} 
-
- .item-text{
-  color: #ffff;
-  text-align: center;
-  font: 1em montserrat;
-  font-size: 0.875rem;
-  font-weight: normal;
-  line-height: 20px;
-
-}
-.items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding-top: 20%;
- 
-}
-
-.menu-item {
-  box-sizing: border-box;
-  padding: 0.5em;
-}
-
-button.item-list-link {
-  background: transparent;
-  outline: none;
-  width: 100%;
-  
-}
-
-.item-list-link {
-  box-sizing: border-box;
-  transition: background-color 0.3s, padding 0.3s;
-  position: relative;
-  text-align: center;
-  display: block;
-  color: var(--ic-brand-global-nav-menu-item__text-color);
-  border-style: none;
-}
-.sign-out{
-  display: flex;
-}
-
-.item-link{
-  box-sizing: border-box;
-  transition: background-color 0.3s, padding 0.3s;
-  position: relative;
-  text-align: center;
-  display: flex;
-  color: var(--ic-brand-global-nav-menu-item__text-color);
-  border-style: none;
-  align-items: center;
-  background: transparent;
-  outline: none;
-  width: 100%;
-  bottom: 2em;
-  right: 20px;
-  
-  
-}
-button.item-link {
-  position: absolute;
-}
-
-.img-icon-log {
-  width: 2.5em;
-  margin-left: 25%;
+/*------------------------LOGIN-----------------------------------------*/
+.login-container{
+  position: fixed;
+  width: 500px;
+  height: 600px;
+  left: 450px;
+  top: 125px;
+  background: linear-gradient(148.95deg, #32197A 3.58%, rgba(50, 25, 122, 0.53) 97.85%);
+  border-radius: 50px;
 
 }
 
-.content-details{
-  align-items: center;
+.content-holder{
+  display: grid;
+  margin: 2rem;
 }
 
- li:hover{
-  background-color:rgba(156, 147, 177, 0.49);
-  width: 100%;
+.user-name{
+  width: 400px;
+  height: 50px;
 
+  background: rgba(217, 217, 217, 0.57);
+  border-radius: 50px;
 }
 
+.pass-word{
+  width: 400px;
+  height: 50px;
+
+  background: rgba(217, 217, 217, 0.57);
+  border-radius: 50px;
+}
+
+/*------------------------LOGIN-----------------------------------------*/
+
+/* ----------> Dashboard details------------------------------------*/
 .container-box-1 {
   position: absolute;
   width: 300px;
@@ -174,33 +113,12 @@ button.item-link {
   border-radius: 50px;
 }
 
+
 .dashboard-container-box{
   margin: -36px 0 0 -36px;
 }
 
-.logo-holder{
-  box-sizing: border-box;
-
+.main-content{
   position: absolute;
-  width: 168px;
-  height: 96px;
-  left: 1226px;
-  top: 45px;
-
-  border: 1px solid #32197A;
 }
-h3 {
-  position: absolute;
-  width: 155px;
-  height: 24px;
-  left: 1232px;
-  top: 81px;
 
-  font-family: 1em montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #000000;
-}

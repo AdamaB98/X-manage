@@ -4,6 +4,7 @@ import Project from "../images/edit-alt.png"
 import Signout from "../images/sign-out-alt.png"
 import Money from "../images/money.png"
 import Tool from "../images/tool-box.png"
+import "./navar.css"
 
 function Navbar(){
     return(
