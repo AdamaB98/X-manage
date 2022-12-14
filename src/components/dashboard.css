@@ -28,13 +28,14 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  grid-gap: 80px;
+  grid-gap: 50px;
 }
 
 .main-content-section-1{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 100px;
   
 
 }
@@ -51,7 +52,7 @@
 }
 
 .logo{
-  width: 200px;
+  width: 180px;
   height: 50px;
   padding: 20px;
   border: 1px solid rgba(156, 147, 177, 0.75);
@@ -64,15 +65,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 100px;
  
 
 }
-.sub-section{
-}
+
 .main-content-section-3{
     display: flex;
     flex-direction: row;
     margin: 80px;
+    height: 100vh;
    
 }
 .link{
