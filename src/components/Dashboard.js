@@ -49,8 +49,7 @@ function Dashboard(){
                             <div className="sub-section">
                                 <div className="link">
                                 <img className="icon-add project-m1" src={Plus}/> 
-                                <Link className="add-project project-m1" to= "/">Add a Project
-                                </Link>
+                                <Link className="add-project project-m1" to= "/">Add a Project</Link>
                                 </div>
                             </div>
                             <div className="sub-section">

@@ -17,25 +17,25 @@ function Navbar(){
                     </button>
                 </li>
                 <li className="dash-board menu-item">
-                    <a className="item-list-link" href="#"> 
+                    <a className="item-list-link" href="./Dashboard.js"> 
                         <img className="img-icon" src={dashboard} alt=""></img>
                         <div className="item-text">Dashboard</div>
                     </a>
                 </li>
                 <li className="expenses menu-item">
-                    <a className="item-list-link" href="#">
+                    <a className="item-list-link" href="./Expense.js">
                         <img className="img-icon" src={Money} alt=""></img>
                         <div className="item-text menu-item">Expenses</div>
                     </a>
                 </li>
                 <li className="project menu-item">
-                    <a className="item-list-link" href="#">
+                    <a className="item-list-link" href="./Project.js">
                         <img className="img-icon" src={Project} alt=""></img>
                         <div className="item-text">Project</div>
                     </a>
                 </li>
                 <li className="tool menu-item">
-                    <a className="item-list-link" href="#">
+                    <a className="item-list-link" href="./Tool.js">
                         <img className="img-icon" src={Tool} alt=""></img>
                         <div className="item-text">Tools</div>
                     </a>
