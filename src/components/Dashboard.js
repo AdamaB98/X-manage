@@ -27,6 +27,18 @@ function Search(){
         </div>
     );
 }
+function Section_1(){
+    return(
+        <div className="main-content-section-1">
+            <div className="section-items">
+                <Link className="back-arrow" to="/add-project">
+                    <img  className="arrow-icon" src={Back}/>
+                </Link>
+            </div>
+            <div className="logo">Company Logo</div>
+        </div>
+    );
+}
 
 function Dashboard(){
     return(
@@ -37,14 +49,7 @@ function Dashboard(){
                 </div>
                 <div className="main-content">
                     <div className="sections-content">
-                        <div className="main-content-section-1">
-                            <div className="section-items">
-                                <Link className="back-arrow" to="/">
-                                    <img  className="arrow-icon" src={Back}/>
-                                </Link>
-                            </div>
-                            <div className="logo">Company Logo</div>
-                        </div>
+                        <Section_1/>
                         <div className="main-content-section-2">
                             <div className="sub-section">
                                 <div className="link">
